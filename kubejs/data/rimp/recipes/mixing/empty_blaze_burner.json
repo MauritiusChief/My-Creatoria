@@ -1,0 +1,23 @@
+{
+    "type": "create:mixing",
+    "ingredients": [
+      {
+        "item": "create:blaze_burner"
+      },
+      {
+        "amount": 20,
+        "fluid": "minecraft:water",
+        "nbt": {}
+      }
+    ],
+    "results": [
+      {
+        "item": "create:empty_blaze_burner"
+      },
+      {
+        "chance": 0.5,
+        "count": 2,
+        "item": "minecraft:blaze_rod"
+      }
+    ]
+  }

@@ -1,0 +1,64 @@
+{
+    "type": "create:sequenced_assembly",
+    "ingredient": {
+      "item": "minecraft:golden_apple"
+    },
+    "loops": 1,
+    "results": [
+      {
+        "item": "minecraft:enchanted_golden_apple"
+      }
+    ],
+    "sequence": [
+      {
+        "type": "create:deploying",
+        "ingredients": [
+          {
+            "item": "minecraft:golden_apple"
+          },
+          {
+            "item": "minecraft:totem_of_undying"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:golden_apple"
+          }
+        ]
+      },
+      {
+        "type": "create:filling",
+        "ingredients": [
+          {
+            "item": "minecraft:golden_apple"
+          },
+          {
+            "amount": 100,
+            "fluid": "create_enchantment_industry:experience",
+            "nbt": {}
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:golden_apple"
+          }
+        ]
+      },
+      {
+        "type": "create:pressing",
+        "ingredients": [
+          {
+            "item": "minecraft:golden_apple"
+          }
+        ],
+        "results": [
+          {
+            "item": "minecraft:golden_apple"
+          }
+        ]
+      }
+    ],
+    "transitionalItem": {
+      "item": "minecraft:golden_apple"
+    }
+  }
