@@ -1,7 +1,7 @@
 #DO NOT TOUCH!
 #This is not for you.
 #This is used to check if it's the first time the mod has been run
-firstRun = true
+firstRun = false
 
 [general]
 	#This allows you hide or show the overlay in the top right of the screen when XRay is enabled

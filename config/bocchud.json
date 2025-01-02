@@ -177,7 +177,7 @@
     "infoChunkSections": false,
     "infoChunkSectionsLine": false,
     "infoChunkUpdates": false,
-    "infoCoordinates": true,
+    "infoCoordinates": false,
     "infoCoordinatesScaled": false,
     "infoDifficulty": false,
     "infoDimensionId": false,
