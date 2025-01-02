@@ -118,9 +118,9 @@
     "useFontShadow": false,
     "useTextBackground": true,
     "mainRenderingToggle": {
-      "enabled": false,
+      "enabled": true,
       "hotkey": {
-        "keys": "H"
+        "keys": "LEFT_CONTROL,H"
       }
     },
     "openConfigGui": {
