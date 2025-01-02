@@ -1,0 +1,18 @@
+{
+	"parcool.sound.breakfall.just.subtitle": "缓冲技：缓冲",
+	"parcool.sound.breakfall.roll.subtitle": "缓冲技：翻滚",
+	"parcool.sound.breakfall.tap.subtitle": "缓冲技：屈膝",
+	"parcool.sound.catleap.subtitle": "猫跳",
+	"parcool.sound.dodge.subtitle": "躲闪",
+	"parcool.sound.cling_to_cliff.grab.subtitle": "猫挂：抓住",
+	"parcool.sound.cling_to_cliff.jump.subtitle": "猫挂：跳跃",
+	"parcool.sound.h_wall_run.subtitle": "水平跑墙",
+	"parcool.sound.hang_down.grab.subtitle": "垂挂：抓住",
+	"parcool.sound.hang_down.jump.subtitle": "垂挂：跳跃",
+	"parcool.sound.slide.subtitle": "滑行",
+	"parcool.sound.v_wall_run.subtitle": "蹬壁上墙（踩墙跳）",
+	"parcool.sound.vault.subtitle": "翻越",
+	"parcool.sound.wall_jump.subtitle": "墙跳",
+	"item.minecraft.tipped_arrow.effect.energy_drink": "能量之箭",
+	"item.minecraft.tipped_arrow.effect.poor_energy_drink": "劣质能量之箭"
+}
