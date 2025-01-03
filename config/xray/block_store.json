@@ -1,9 +1,23 @@
 [
   {
+    "name": "深层钻石矿石",
+    "blockName": "minecraft:deepslate_diamond_ore",
+    "order": 3,
+    "color": 1959935,
+    "drawing": true
+  },
+  {
     "name": "铁矿石",
     "blockName": "minecraft:iron_ore",
     "order": 1,
     "color": 14266266,
+    "drawing": false
+  },
+  {
+    "name": "钻石矿石",
+    "blockName": "minecraft:diamond_ore",
+    "order": 2,
+    "color": 2157055,
     "drawing": true
   }
 ]
