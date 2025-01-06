@@ -1,13 +1,16 @@
 // priority: 0
 
-// EntityEvents.hurt(event => {
-//     // Check if the entity is a Creeper
-//     if (event.entity.type == 'minecraft:creeper') {
-//         // Check if the damage source is from Shock
-//         if (event.entity.hasEffect('createaddition:shocking')) {
-//             Utils.server.tell("Entity Hurt Detected!")
-//             // Convert the Creeper into a Charged Creeper
-//             //event.entity.withNBT({powered: 1})
-//         }
-//     }
-// });
+LevelEvents.tick(event => {
+    // Check if the entity is a Creeper
+    event.level.getEntities().forEach( entity => {
+        if (
+            entity.type == 'minecraft:creeper' &&
+            entity.hasEffect('createaddition:shocking')
+        ) {
+            // console.log("creeper shocking")
+            let nbt = entity.getNbt();
+            nbt.powered = 1;
+            entity.mergeNbt(nbt);
+        }
+    })
+});
