@@ -10,6 +10,7 @@ config/Hud Texts
 config/bocchud.json
 config/bocchud
 config/xray-client.toml
+config/xray
 
 !defaultconfigs/
 
