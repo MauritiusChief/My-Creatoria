@@ -4,11 +4,11 @@
   },
   "type": "create:mechanical_crafting",
   "pattern": [
-    "  O  ",
-    " OEO ",
+    " OOO ",
+    "OEEEO",
     "OEFEO",
-    " OGO ",
-    "  D  "
+    "OEGEO",
+    " ODO "
   ],
   "key": {
     "O": {
