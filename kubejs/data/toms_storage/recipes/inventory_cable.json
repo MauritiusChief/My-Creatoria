@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"SPS",
+    "pHp",
+    "SPS"
+  ],
+  "key": {
+  	"P": {
+      "tag": "minecraft:planks"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "H": {
+      "item": "minecraft:hopper_minecart"
+    },
+    "p": {
+      "item": "minecraft:powered_rail"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_cable",
+    "count": 6
+  }
+}

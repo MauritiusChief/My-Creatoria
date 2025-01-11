@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"PSP",
+    "PBP",
+    "POP"
+  ],
+  "key": {
+  	"P": {
+      "tag": "minecraft:planks"
+    },
+    "B": {
+      "tag": "forge:barrels/wooden"
+    },
+    "S": {
+      "tag": "forge:rods/wooden"
+    },
+    "O": {
+      "item": "minecraft:observer"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.open_crate"
+  }
+}
