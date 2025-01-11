@@ -1,0 +1,30 @@
+{
+  "result": {
+    "item": "waystones:warp_plate"
+  },
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "OOSOO",
+    "OEWEO",
+    "OWFWO",
+    "OEWEO",
+    "OOSOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "W": {
+      "item": "waystones:warp_dust"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "E": {
+      "item": "minecraft:ender_pearl"
+    }
+  }
+}

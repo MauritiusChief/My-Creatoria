@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "waystones:portstone"
+  },
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    " OSO ",
+    "OSMSO",
+    "OMWMO",
+    "OBPBO",
+    " OBO "
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "P": {
+      "item": "minecraft:soul_sand"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "B": {
+      "item": "minecraft:polished_andesite"
+    },
+    "M": {
+      "item": "minecraft:ender_pearl"
+    }
+  }
+}

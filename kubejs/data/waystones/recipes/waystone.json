@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "waystones:waystone"
+  },
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "OOSOO",
+    "OSMSO",
+    "OMWMO",
+    "OSBSO",
+    "OOPOO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "P": {
+      "item": "minecraft:soul_sand"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "M": {
+      "item": "minecraft:ender_pearl"
+    }
+  }
+}

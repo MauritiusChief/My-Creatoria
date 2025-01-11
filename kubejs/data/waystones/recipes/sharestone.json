@@ -1,0 +1,33 @@
+{
+  "result": {
+    "item": "waystones:sharestone"
+  },
+  "type": "create:mechanical_crafting",
+  "pattern": [
+    "OSSSO",
+    "OOMOO",
+    "OMWMO",
+    "OOBOO",
+    "OSPSO"
+  ],
+  "key": {
+    "O": {
+      "item": "minecraft:obsidian"
+    },
+    "S": {
+      "item": "minecraft:stone_bricks"
+    },
+    "P": {
+      "item": "minecraft:soul_sand"
+    },
+    "W": {
+      "item": "waystones:warp_stone"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "M": {
+      "item": "minecraft:ender_pearl"
+    }
+  }
+}
