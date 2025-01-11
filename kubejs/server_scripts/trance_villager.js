@@ -6,13 +6,14 @@ LevelEvents.tick(event => {
     event.level.getEntities().forEach( entity => {
         // console.log(entity)
         // console.log(entity === undefined)
-        if (entity === undefined) return
+        if (!entity) return
 
         if (entity.type == 'minecraft:villager') {
             var nearest_player = entity.getLevel().getNearestPlayer(
                 TargetingConditions.forNonCombat(), 
                 entity
             )
+            if (!nearest_player) return
             // console.log(nearest_player.handSlots[0].id)
             if (
                 is_in_range(10, 
