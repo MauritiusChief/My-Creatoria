@@ -598,7 +598,7 @@ _version = 2
 				# 
 				# Lowest Quality: HEIGHT_MAP
 				# Highest Quality: EXTREME
-				verticalQuality = "LOW"
+				verticalQuality = "HIGH"
 				#
 				# What blocks shouldn't be rendered as LODs? 
 				# 
