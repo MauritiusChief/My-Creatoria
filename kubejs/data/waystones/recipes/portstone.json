@@ -1,33 +1,47 @@
 {
-  "result": {
+  "results": [{
     "item": "waystones:portstone"
+  }],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "waystones:warp_stone"
   },
-  "type": "create:mechanical_crafting",
-  "pattern": [
-    " OSO ",
-    "OSMSO",
-    "OMWMO",
-    "OBPBO",
-    " OBO "
-  ],
-  "key": {
-    "O": {
-      "item": "minecraft:obsidian"
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createutilities:polished_amethyst"
+        },
+        {
+          "item": "minecraft:stone_brick_stairs"
+        }
+      ],
+      "results": [
+        {
+          "item": "createutilities:polished_amethyst"
+        }
+      ]
     },
-    "S": {
-      "item": "minecraft:stone_bricks"
-    },
-    "P": {
-      "item": "minecraft:soul_sand"
-    },
-    "W": {
-      "item": "waystones:warp_stone"
-    },
-    "B": {
-      "item": "minecraft:polished_andesite"
-    },
-    "M": {
-      "item": "minecraft:ender_pearl"
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createutilities:polished_amethyst"
+        },
+        {
+          "item": "minecraft:obsidian"
+        }
+      ],
+      "results": [
+        {
+          "item": "createutilities:polished_amethyst"
+        }
+      ]
     }
+  ],
+  "transitionalItem": {
+    "item": "createutilities:polished_amethyst"
   }
 }

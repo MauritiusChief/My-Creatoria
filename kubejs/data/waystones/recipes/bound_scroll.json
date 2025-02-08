@@ -5,16 +5,16 @@
   },
   "type": "minecraft:crafting_shaped",
   "pattern": [
-    " F ",
-    "OEO",
-    " P "
+    "OFO",
+    " E ",
+    "OPO"
   ],
   "key": {
     "F": {
       "item": "minecraft:flint_and_steel"
     },
     "O": {
-      "item": "minecraft:obsidian"
+      "item": "createutilities:polished_amethyst"
     },
     "E": {
       "item": "minecraft:ender_pearl"

@@ -1,30 +1,83 @@
 {
-  "result": {
-    "item": "waystones:warp_plate"
-  },
-  "type": "create:mechanical_crafting",
-  "pattern": [
-    "OOSOO",
-    "OEWEO",
-    "OWFWO",
-    "OEWEO",
-    "OOSOO"
-  ],
-  "key": {
-    "O": {
-      "item": "minecraft:obsidian"
+  "results": [
+    {
+      "chance": 90.0,
+      "item": "waystones:warp_plate"
     },
-    "W": {
-      "item": "waystones:warp_dust"
+    {
+      "chance": 2.0,
+      "item": "minecraft:stone_pressure_plate"
     },
-    "F": {
-      "item": "minecraft:flint"
+    {
+      "chance": 1.0,
+      "item": "waystones:warp_stone"
     },
-    "S": {
-      "item": "minecraft:stone_bricks"
-    },
-    "E": {
+    {
+      "chance": 4.0,
       "item": "minecraft:ender_pearl"
+    },
+    {
+      "chance": 3.0,
+      "item": "minecraft:stone_brick_slab"
     }
+  ],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "minecraft:flint"
+  },
+  "loops": 4,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        },
+        {
+          "item": "waystones:warp_dust"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        },
+        {
+          "item": "minecraft:ender_pearl"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        }
+      ]
+    },
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        },
+        {
+          "item": "minecraft:stone_brick_slab"
+        }
+      ],
+      "results": [
+        {
+          "item": "minecraft:stone_pressure_plate"
+        }
+      ]
+    }
+  ],
+  "transitionalItem": {
+    "item": "minecraft:stone_pressure_plate"
   }
 }
+

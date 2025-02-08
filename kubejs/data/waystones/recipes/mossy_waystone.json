@@ -1,33 +1,63 @@
 {
-  "result": {
+  "results": [{
     "item": "waystones:mossy_waystone"
+  }],
+  "type": "create:sequenced_assembly",
+  "ingredient": {
+    "item": "waystones:warp_stone"
   },
-  "type": "create:mechanical_crafting",
-  "pattern": [
-    "OOSOO",
-    "OSMSO",
-    "OMWMO",
-    "OSBSO",
-    "OOPOO"
-  ],
-  "key": {
-    "O": {
-      "item": "minecraft:obsidian"
+  "loops": 1,
+  "sequence": [
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createutilities:polished_amethyst"
+        },
+        {
+          "item": "minecraft:mossy_stone_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "createutilities:polished_amethyst"
+        }
+      ]
     },
-    "S": {
-      "item": "minecraft:mossy_stone_bricks"
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createutilities:polished_amethyst"
+        },
+        {
+          "item": "minecraft:mossy_stone_bricks"
+        }
+      ],
+      "results": [
+        {
+          "item": "createutilities:polished_amethyst"
+        }
+      ]
     },
-    "P": {
-      "item": "minecraft:soul_sand"
-    },
-    "W": {
-      "item": "waystones:warp_stone"
-    },
-    "B": {
-      "item": "minecraft:book"
-    },
-    "M": {
-      "item": "minecraft:ender_pearl"
+    {
+      "type": "create:deploying",
+      "ingredients": [
+        {
+          "item": "createutilities:polished_amethyst"
+        },
+        {
+          "item": "minecraft:obsidian"
+        }
+      ],
+      "results": [
+        {
+          "item": "createutilities:polished_amethyst"
+        }
+      ]
     }
+  ],
+  "transitionalItem": {
+    "item": "createutilities:polished_amethyst"
   }
 }

@@ -2,29 +2,18 @@
   "result": {
     "item": "waystones:warp_stone"
   },
-  "type": "create:mechanical_crafting",
+  "type": "minecraft:crafting_shaped",
   "pattern": [
-    " OOO ",
-    "OEEEO",
-    "OEFEO",
-    "OEGEO",
-    " ODO "
+    "OOO",
+    "OEO",
+    "OOO"
   ],
   "key": {
     "O": {
-      "item": "minecraft:obsidian"
-    },
-    "G": {
-      "item": "minecraft:soul_sand"
+      "item": "createutilities:polished_amethyst"
     },
     "E": {
       "item": "minecraft:ender_pearl"
-    },
-    "F": {
-      "item": "minecraft:flint_and_steel"
-    },
-    "D": {
-      "item": "minecraft:amethyst_block"
     }
   }
 }
