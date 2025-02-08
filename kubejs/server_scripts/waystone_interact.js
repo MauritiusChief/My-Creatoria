@@ -21,6 +21,8 @@ BlockEvents.rightClicked(event => {
             if (!event.player.isCreative()) {event.item.count--;}
             event.server.runCommandSilent(`setblock ${block.x} ${block.y + 1} ${block.z} ${waystone}[half=upper]`);
             event.server.runCommandSilent(`setblock ${block.x} ${block.y} ${block.z} ${waystone}[half=lower]`);
+            // event.server.runCommandSilent(`fill ${block.x} ${block.y} ${block.z} ${block.x} ${block.y + 1} ${block.z} air`);
+            // event.server.runCommandSilent(`summon item ${block.x + 0.5} ${block.y + 0.5} ${block.z + 0.5} {Item:{id:"${waystone}",Count:1b}}`);
             
             // Play a sound effect
             event.level.playSound(null, block.x, block.y, block.z, 'minecraft:block.portal.travel', 'ambient', 0.1, 1.0);
