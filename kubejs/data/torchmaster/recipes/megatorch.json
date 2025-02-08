@@ -1,0 +1,16 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        " D ",
+        " L ",
+        "GGG"
+    ],
+    "key": {
+        "D": { "item": "minecraft:beacon" },
+        "G": { "tag": "forge:storage_blocks/gold" },
+        "L": { "tag": "minecraft:logs" }
+    },
+    "result": {
+        "item": "torchmaster:megatorch"
+    }
+}
