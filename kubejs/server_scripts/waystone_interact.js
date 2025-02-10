@@ -15,12 +15,18 @@ BlockEvents.rightClicked(event => {
             // console.log(event.block.id)
             let block = event.block
             if (
-                event.level.getBlock(block.x, block.y + 1, block.z).id != ingredient[1] && 
+                event.level.getBlock(block.x, block.y + 1, block.z).id != ingredient[1] || 
                 event.level.getBlock(block.x, block.y - 1, block.z).id != "minecraft:obsidian"
             ) return;
+            console.log(event.item.id)
+            console.log(event.block.id)
             if (!event.player.isCreative()) {event.item.count--;}
-            event.server.runCommandSilent(`setblock ${block.x} ${block.y + 1} ${block.z} ${waystone}[half=upper]`);
-            event.server.runCommandSilent(`setblock ${block.x} ${block.y} ${block.z} ${waystone}[half=lower]`);
+            let command_upper = `execute in ${event.level.dimension} run setblock ${block.x} ${block.y + 1} ${block.z} ${waystone}[half=upper]`
+            let command_lower = `execute in ${event.level.dimension} run setblock ${block.x} ${block.y} ${block.z} ${waystone}[half=lower]`
+            event.server.runCommandSilent(command_upper);
+            console.log(command_upper)
+            event.server.runCommandSilent(command_lower);
+            console.log(command_lower);
             // event.server.runCommandSilent(`fill ${block.x} ${block.y} ${block.z} ${block.x} ${block.y + 1} ${block.z} air`);
             // event.server.runCommandSilent(`summon item ${block.x + 0.5} ${block.y + 0.5} ${block.z + 0.5} {Item:{id:"${waystone}",Count:1b}}`);
             

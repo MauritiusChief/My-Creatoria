@@ -31,7 +31,7 @@ function applyTreeBark(event, namespace, tree, suffixes, bark) {
             let player = event.player
 
             if (!player.isCreative()) {event.item.count--;}
-            event.server.runCommandSilent(`setblock ${block.x} ${block.y} ${block.z} ${originalId}[axis=${axis}]`)
+            event.server.runCommandSilent(`execute in ${event.level.dimension} run setblock ${block.x} ${block.y} ${block.z} ${originalId}[axis=${axis}]`)
             // Play a sound effect
             level.playSound(null, player.x, player.y, player.z, 'minecraft:item.bone_meal.use', 'ambient', 1.0, 1.0);
             // Spawn particles
