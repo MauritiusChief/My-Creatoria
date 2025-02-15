@@ -31,7 +31,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:stone_pressure_plate"
+          "item": "kubejs:incomplete_warp_plate"
         },
         {
           "item": "waystones:warp_dust"
@@ -39,7 +39,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:stone_pressure_plate"
+          "item": "kubejs:incomplete_warp_plate"
         }
       ]
     },
@@ -47,7 +47,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:stone_pressure_plate"
+          "item": "kubejs:incomplete_warp_plate"
         },
         {
           "item": "minecraft:ender_pearl"
@@ -55,7 +55,7 @@
       ],
       "results": [
         {
-          "item": "minecraft:stone_pressure_plate"
+          "item": "kubejs:incomplete_warp_plate"
         }
       ]
     },
@@ -63,7 +63,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "minecraft:stone_pressure_plate"
+          "item": "kubejs:incomplete_warp_plate"
         },
         {
           "item": "minecraft:stone_brick_slab"
@@ -71,13 +71,13 @@
       ],
       "results": [
         {
-          "item": "minecraft:stone_pressure_plate"
+          "item": "kubejs:incomplete_warp_plate"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "minecraft:stone_pressure_plate"
+    "item": "kubejs:incomplete_warp_plate"
   }
 }
 

@@ -12,7 +12,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "createutilities:polished_amethyst"
+          "item": "kubejs:incomplete_waystone"
         },
         {
           "item": "minecraft:chiseled_stone_bricks"
@@ -20,7 +20,7 @@
       ],
       "results": [
         {
-          "item": "createutilities:polished_amethyst"
+          "item": "kubejs:incomplete_waystone"
         }
       ]
     },
@@ -28,7 +28,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "createutilities:polished_amethyst"
+          "item": "kubejs:incomplete_waystone"
         },
         {
           "item": "minecraft:chiseled_stone_bricks"
@@ -36,7 +36,7 @@
       ],
       "results": [
         {
-          "item": "createutilities:polished_amethyst"
+          "item": "kubejs:incomplete_waystone"
         }
       ]
     },
@@ -44,7 +44,7 @@
       "type": "create:deploying",
       "ingredients": [
         {
-          "item": "createutilities:polished_amethyst"
+          "item": "kubejs:incomplete_waystone"
         },
         {
           "item": "minecraft:obsidian"
@@ -52,12 +52,12 @@
       ],
       "results": [
         {
-          "item": "createutilities:polished_amethyst"
+          "item": "kubejs:incomplete_waystone"
         }
       ]
     }
   ],
   "transitionalItem": {
-    "item": "createutilities:polished_amethyst"
+    "item": "kubejs:incomplete_waystone"
   }
 }
