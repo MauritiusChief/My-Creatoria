@@ -6,15 +6,12 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
     "GFG",
-    "OEO",
+    "EEE",
     "GPG"
   ],
   "key": {
     "F": {
       "item": "minecraft:flint_and_steel"
-    },
-    "O": {
-      "item": "createutilities:polished_amethyst"
     },
     "G": {
       "item": "create:experience_nugget"
