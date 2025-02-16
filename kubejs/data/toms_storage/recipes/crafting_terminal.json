@@ -1,13 +1,13 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  	"cdc",
-    "dtd",
-    "cdc"
+  	"d",
+    "t",
+    "c"
   ],
   "key": {
   	"d": {
-      "item": "minecraft:dispenser"
+      "item": "create:brass_funnel"
     },
     "c": {
       "item": "minecraft:crafting_table"

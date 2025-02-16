@@ -1,22 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  	"SPS",
-    "pHp",
-    "SPS"
+  	"SSS",
+    "PHP",
+    "SSS"
   ],
   "key": {
   	"P": {
-      "tag": "minecraft:planks"
+      "item": "create:shaft"
     },
     "S": {
       "tag": "forge:rods/wooden"
     },
     "H": {
-      "item": "minecraft:hopper_minecart"
-    },
-    "p": {
-      "item": "minecraft:powered_rail"
+      "item": "create:belt_connector"
     }
   },
   "result": {

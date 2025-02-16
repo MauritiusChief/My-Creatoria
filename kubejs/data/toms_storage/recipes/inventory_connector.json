@@ -2,7 +2,7 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
   	"PCP",
-    "cDc",
+    "PcP",
     "PHP"
   ],
   "key": {
@@ -12,14 +12,11 @@
     "c": {
       "tag": "forge:chests/wooden"
     },
-    "D": {
-      "item": "minecraft:dispenser"
-    },
     "C": {
-      "item": "minecraft:comparator"
+      "item": "create:electron_tube"
     },
     "H": {
-      "item": "minecraft:hopper_minecart"
+      "item": "create:andesite_funnel"
     }
   },
   "result": {

@@ -1,28 +1,19 @@
 {
   "type": "minecraft:crafting_shaped",
   "pattern": [
-  	" qP",
-    "CcH",
-    " DP"
+  	"  P",
+    "CPH",
+    "  P"
   ],
   "key": {
   	"P": {
       "tag": "minecraft:planks"
     },
-    "c": {
-      "tag": "forge:chests/wooden"
-    },
-    "D": {
-      "item": "minecraft:dispenser"
-    },
     "C": {
       "item": "toms_storage:ts.inventory_cable"
     },
     "H": {
-      "item": "minecraft:hopper"
-    },
-    "q": {
-      "item": "minecraft:comparator"
+      "item": "create:andesite_funnel"
     }
   },
   "result": {

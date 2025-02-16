@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+  	"P",
+    "C",
+    "H"
+  ],
+  "key": {
+  	"P": {
+      "item": "create:electron_tube"
+    },
+    "C": {
+      "item": "toms_storage:ts.inventory_cable_connector"
+    },
+    "H": {
+      "tag": "forge:ingots/brass"
+    }
+  },
+  "result": {
+    "item": "toms_storage:ts.inventory_cable_connector_filtered"
+  }
+}

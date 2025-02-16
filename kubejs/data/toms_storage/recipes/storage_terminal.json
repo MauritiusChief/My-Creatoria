@@ -2,18 +2,18 @@
   "type": "minecraft:crafting_shaped",
   "pattern": [
   	"PHP",
-    "cGc",
-    "PHP"
+    "PGP",
+    "PcP"
   ],
   "key": {
   	"P": {
       "tag": "minecraft:planks"
     },
     "c": {
-      "tag": "forge:chests/wooden"
+      "item": "create:display_board"
     },
     "H": {
-      "item": "minecraft:hopper"
+      "item": "create:andesite_funnel"
     },
     "G": {
       "item": "minecraft:redstone_lamp"
