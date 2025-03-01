@@ -1,0 +1,30 @@
+{
+  "type": "create:crushing",
+  "ingredients": [
+    [
+      {
+        "item": "sophisticatedbackpacks:backpack"
+      },
+      {
+        "item": "sophisticatedbackpacks:copper_backpack"
+      },
+      {
+        "item": "sophisticatedbackpacks:iron_backpack"
+      },
+      {
+        "item": "sophisticatedbackpacks:gold_backpack"
+      },
+      {
+        "item": "sophisticatedbackpacks:diamond_backpack"
+      }
+    ]
+    
+  ],
+  "processingTime": 150,
+  "results": [
+    {
+      "count": 2,
+      "item": "minecraft:shulker_shell"
+    }
+  ]
+}
