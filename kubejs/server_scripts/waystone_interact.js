@@ -28,6 +28,14 @@ BlockEvents.rightClicked(event => {
                 return
             }
 
+            // Color dye for sharestone
+            let offhandItem = event.player.getOffHandItem()
+            if (offhandItem && offhandItem.id.endsWith('_dye') && waystone == 'waystones:sharestone') {
+                let itemId = offhandItem.id
+                let color = itemId.replace('_dye', '').split(':').pop() // Extracts color from ID
+                waystone = `waystones:${color}_sharestone`
+            }
+
             let command_upper = `execute in ${event.level.dimension} run setblock ${block.x} ${block.y + 1} ${block.z} ${waystone}[half=upper]`
             let command_lower = `execute in ${event.level.dimension} run setblock ${block.x} ${block.y} ${block.z} ${waystone}[half=lower]`
             event.server.runCommandSilent(command_upper);
