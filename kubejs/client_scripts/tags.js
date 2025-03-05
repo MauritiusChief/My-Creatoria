@@ -1,5 +1,5 @@
 Ponder.tags((event) => {
-    event.createTag("kubejs:my_creatoria", "minecraft:paper", "Getting started.", "We ponder now!", [
+    event.createTag("kubejs:my_creatoria", "minecraft:paper", "My Creatoria Guide", "To know what one knows, and to admit what one does not know—this is true knowledge", [
         "waystones:warp_stone",
         "minecraft:ender_pearl",
         "createutilities:void_casing",

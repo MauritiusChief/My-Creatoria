@@ -9,7 +9,7 @@ Ponder.registry((event) => {
         'waystones:mossy_waystone',
         'waystones:sharestone',
         'waystones:portstone'
-    ]).scene("waystone_interact", "First example scene", (scene, util) => {
+    ]).scene("waystone_interact", "Creating a way stone in world", (scene, util) => {
 
         scene.showStructure();
         
@@ -25,7 +25,7 @@ Ponder.registry((event) => {
          * 50 -> the tick length of the instruction
          * [x, y, z] -> the position that the text should point at
          */
-        scene.text(80, "Example text 1", [1.5, 3.5, 2.5]).attachKeyFrame();
+        scene.text(80, "Prepare a structure like this", [1.5, 3.5, 2.5]).attachKeyFrame();
         scene.idle(5);
         scene.world.showSection([2, 1, 2], Facing.DOWN);
         scene.world.setBlock([2, 1, 2], "createutilities:void_casing", false);
@@ -37,7 +37,7 @@ Ponder.registry((event) => {
         scene.world.setBlock([2, 3, 2], "minecraft:stone_bricks", false);
         scene.idle(70);
 
-        scene.text(80, "Example text 1", [2.0, 2.5, 2.5]).attachKeyFrame();
+        scene.text(80, "Right click on this block with a warp stone to create a way stone", [2.0, 2.5, 2.5]).attachKeyFrame();
         scene.idle(60);
         /**
          * 120 -> the tick length of the instruction
@@ -56,7 +56,7 @@ Ponder.registry((event) => {
         scene.world.hideSection([0, 1, 0, 3, 4, 3], Facing.up);
         scene.idle(20);
 
-        scene.text(100, "Example text 2", [2.0, 2.5, 2.5]).attachKeyFrame();;
+        scene.text(100, "Ender pearl can also create way stones, but the success rate is only 1/16, try a few more times", [2.0, 2.5, 2.5]).attachKeyFrame();;
         scene.world.setBlock([2, 1, 2], "createutilities:void_casing", false);
         scene.world.setBlocks([2, 2, 2, 2, 3, 2], "minecraft:stone_bricks", false);
         scene.world.showSection([2, 1, 2, 2, 3, 2], Facing.DOWN);
@@ -89,7 +89,7 @@ Ponder.registry((event) => {
         'waystones:mossy_waystone',
         'waystones:sharestone',
         'waystones:portstone'
-    ]).scene("waystone_types", "2nd example scene", (scene, util) => {
+    ]).scene("waystone_types", "Types of way stones", (scene, util) => {
         scene.showStructure();
         const WAYSTONE_INGREDIENT = new Map([
             ['waystones:waystone', [[4,0], 'minecraft:stone_bricks','minecraft:stone_bricks']],
@@ -106,7 +106,7 @@ Ponder.registry((event) => {
             scene.world.setBlock([pos[0], 3, pos[1]], ingredient[2], false);
         })
         scene.world.modifyBlock([0, 2, 4], (curState) => curState.with("facing", "south"), false);
-        scene.text(100, "Example text 111", [0.5, 2.5, 4.0]).attachKeyFrame();;
+        scene.text(100, "These blocks correspond to the different types of way stones", [0.5, 2.5, 4.0]).attachKeyFrame();;
         scene.idle(100);
 
         WAYSTONE_INGREDIENT.forEach((ingredient, waystone) => {
@@ -132,7 +132,7 @@ Ponder.registry((event) => {
         'waystones:mossy_waystone',
         'waystones:sharestone',
         'waystones:portstone'
-    ]).scene("waystone_sharedstone_color", "3nd example scene", (scene, util) => {
+    ]).scene("waystone_sharedstone_color", "Color of share stone", (scene, util) => {
         scene.showStructure();
         
         scene.world.setBlock([3, 1, 3], "createutilities:void_casing", false);
@@ -142,7 +142,7 @@ Ponder.registry((event) => {
 
         scene.idle(10);
 
-        scene.text(120, "Example text 111", [0.5, 2.5, 4.0]).attachKeyFrame();;
+        scene.text(120, "If the offhand was holding a dye when creating a share stone, it will also be the corresponding color", [0.5, 2.5, 4.0]).attachKeyFrame();;
         scene.idle(100);
         scene
             .showControls(20, [3.5, 2.5, 3.0], "right")
@@ -163,7 +163,7 @@ Ponder.registry((event) => {
         scene.world.modifyBlock([1, 2, 3], () => Block.id("waystones:red_sharestone").with("half", "lower"), true);
         scene.world.modifyBlock([1, 3, 3], () => Block.id("waystones:red_sharestone").with("half", "upper"), true);
         scene.idle(20);
-        scene.text(100, "Example text 111", [0.5, 2.5, 4.0]).attachKeyFrame();
+        scene.text(100, "The dye in the offhand won't be consumed", [0.5, 2.5, 4.0]).attachKeyFrame();
         scene.idle(100);
     })
 });
