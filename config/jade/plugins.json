@@ -64,5 +64,8 @@
   },
   "waystones": {
     "waystone": true
+  },
+  "balm": {
+    "jade": true
   }
 }
