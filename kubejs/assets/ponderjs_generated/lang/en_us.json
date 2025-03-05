@@ -1,0 +1,13 @@
+{
+  "kubejs.ponder.tag.my_creatoria": "My Creatoria Guide",
+  "kubejs.ponder.tag.my_creatoria.description": "To know what one knows, and to admit what one does not know—this is true knowledge",
+  "kubejs.ponder.waystone_interact.header": "Creating a way stone in world",
+  "kubejs.ponder.waystone_interact.text_1": "Prepare a structure like this",
+  "kubejs.ponder.waystone_interact.text_2": "Right click on this block with a warp stone to create a way stone",
+  "kubejs.ponder.waystone_interact.text_3": "Ender pearl can also create way stones, but the success rate is only 1/16, try a few more times",
+  "kubejs.ponder.waystone_sharedstone_color.header": "Color of share stone",
+  "kubejs.ponder.waystone_sharedstone_color.text_1": "If the offhand was holding a dye when creating a share stone, it will also be the corresponding color",
+  "kubejs.ponder.waystone_sharedstone_color.text_2": "The dye in the offhand won't be consumed",
+  "kubejs.ponder.waystone_types.header": "Types of way stones",
+  "kubejs.ponder.waystone_types.text_1": "These blocks correspond to the different types of way stones"
+}
