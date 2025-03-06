@@ -2,7 +2,6 @@
 Ponder.registry((event) => {
     event.create([
         "waystones:warp_stone",
-        "minecraft:ender_pearl",
         "createutilities:void_casing",
         'waystones:waystone',
         'waystones:sandy_waystone',
@@ -82,7 +81,6 @@ Ponder.registry((event) => {
 
     event.create([
         "waystones:warp_stone",
-        "minecraft:ender_pearl",
         "createutilities:void_casing",
         'waystones:waystone',
         'waystones:sandy_waystone',
@@ -106,6 +104,7 @@ Ponder.registry((event) => {
             scene.world.setBlock([pos[0], 3, pos[1]], ingredient[2], false);
         })
         scene.world.modifyBlock([0, 2, 4], (curState) => curState.with("facing", "south"), false);
+        scene.idle(20);
         scene.text(100, "These blocks correspond to the different types of way stones", [0.5, 2.5, 4.0]).attachKeyFrame();;
         scene.idle(100);
 
@@ -125,7 +124,6 @@ Ponder.registry((event) => {
 
     event.create([
         "waystones:warp_stone",
-        "minecraft:ender_pearl",
         "createutilities:void_casing",
         'waystones:waystone',
         'waystones:sandy_waystone',
