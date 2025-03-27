@@ -11,6 +11,7 @@ config/bocchud.json
 config/bocchud
 config/xray-client.toml
 config/xray
+config/sidebar_buttons.json
 
 !defaultconfigs/
 
