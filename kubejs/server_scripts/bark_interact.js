@@ -25,20 +25,25 @@ function applyTreeBark(event, namespace, tree, suffixes, bark) {
 
         if (block.id == strippedId && event.item.id == bark) {
             let blockState = block.getBlockState();
-            let property0 = blockState.getProperties().toArray()[0]
-            let axis = blockState.getValue(property0).name().toLowerCase();
+            let axis = blockState.getValue(BlockProperties.AXIS)
+            // console.log(blockState)
             let level = event.level
             let player = event.player
 
             if (!player.isCreative()) {event.item.count--;}
-            event.server.runCommandSilent(`execute in ${event.level.dimension} run setblock ${block.x} ${block.y} ${block.z} ${originalId}[axis=${axis}]`)
+            block.set(originalId)
+            let newState = block.getBlockState();
+            newState = newState.setValue(BlockProperties.AXIS, axis)
+            level.setBlock(block.getPos(), newState, 1)
+            // event.server.runCommandSilent(`execute in ${event.level.dimension} run setblock ${block.x} ${block.y} ${block.z} ${originalId}[axis=${axis}]`)
+
             // Play a sound effect
             level.playSound(null, player.x, player.y, player.z, 'minecraft:item.bone_meal.use', 'ambient', 1.0, 1.0);
             // Spawn particles
             level.spawnParticles('minecraft:happy_villager', true, block.x + 0.5, block.y + 0.5, block.z + 0.5, 0.5, 0.5, 0.5, 10, 0.1);
 
             // Cancel further processing
-            event.cancel();
+            event.success();
         }
     });
 }
