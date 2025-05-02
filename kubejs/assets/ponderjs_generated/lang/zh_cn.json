@@ -1,13 +1,13 @@
 {
   "kubejs.ponder.tag.my_creatoria": "天工奇人指南",
   "kubejs.ponder.tag.my_creatoria.description": "知之为知之 不知为不知 是知也",
-  "kubejs.ponder.waystone_interact.header": "在世界中创建传送石碑",
-  "kubejs.ponder.waystone_interact.text_1": "准备一个这样的结构",
-  "kubejs.ponder.waystone_interact.text_2": "用传送石右键所指的这个方块即可创建传送石碑",
-  "kubejs.ponder.waystone_interact.text_3": "末影珍珠也能创建传送石碑，但成功率只有1/16，多尝试几次",
-  "kubejs.ponder.waystone_sharedstone_color.header": "共享石碑的颜色",
-  "kubejs.ponder.waystone_sharedstone_color.text_1": "如果创建石碑时副手持有染料，那么创建的共享石碑也将是对应的颜色",
-  "kubejs.ponder.waystone_sharedstone_color.text_2": "副手的染料不会消耗",
-  "kubejs.ponder.waystone_types.header": "传送石碑种类",
-  "kubejs.ponder.waystone_types.text_1": "这些方块对应了传送石碑的不同种类"
+  "ponderjs.ponder.waystone_interact.header": "在世界中创建传送石碑",
+  "ponderjs.ponder.waystone_interact.text_1": "准备一个这样的结构",
+  "ponderjs.ponder.waystone_interact.text_2": "用传送石右键所指的这个方块即可创建传送石碑",
+  "ponderjs.ponder.waystone_interact.text_3": "末影珍珠也能创建传送石碑，但成功率只有1/16，多尝试几次",
+  "ponderjs.ponder.waystone_sharedstone_color.header": "共享石碑的颜色",
+  "ponderjs.ponder.waystone_sharedstone_color.text_1": "如果创建石碑时副手持有染料，那么创建的共享石碑也将是对应的颜色",
+  "ponderjs.ponder.waystone_sharedstone_color.text_2": "副手的染料不会消耗",
+  "ponderjs.ponder.waystone_types.header": "传送石碑种类",
+  "ponderjs.ponder.waystone_types.text_1": "这些方块对应了传送石碑的不同种类"
 }
