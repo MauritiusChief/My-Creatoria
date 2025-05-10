@@ -5,10 +5,10 @@
 	dogsSpawnLying = true
 	#Time to spend sitting (in ticks) before dogs lie down.
 	#Range: 1 ~ 6000000
-	timeBeforeLie = 300
+	timeBeforeLie = 200
 	#Range for target to get to dog before dog gets up (in blocks)
 	#Range: 0.0 ~ 32.0
-	rangeBeforeGettingUp = 3.0
+	rangeBeforeGettingUp = 1.5
 	#Who the dog gets up for?
 	#Accepts: NOBODY, OWNER, PLAYERS, ANY_LIVING_ENTITY
 	#Allowed Values: NOBODY, OWNER, PLAYERS, ANY_LIVING_ENTITY
