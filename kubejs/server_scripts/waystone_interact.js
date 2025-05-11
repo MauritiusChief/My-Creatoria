@@ -22,13 +22,13 @@ BlockEvents.rightClicked(event => {
             ) return;
             // console.log(event.item.id)
             // console.log(event.block.id)
-            if (!event.player.isCreative()) {event.item.count--;}
 
             // Ender pearl is a primitive igredient, so chancely success
             if (event.item.id == "minecraft:ender_pearl" && Math.random() > (1/16)) {
                 level.playSound(null, block.x, block.y, block.z, 'minecraft:entity.ender_eye.death', 'ambient', 1.0, 1.0);
                 return
             }
+            if (!event.player.isCreative()) {event.item.count--;}
 
             // Color dye for sharestone
             let offhandItem = event.player.getOffHandItem()

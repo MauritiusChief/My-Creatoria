@@ -24,6 +24,11 @@ let crtbro = (player) => {
 
 	// server.runCommandSilent("/give @p waystones:warp_stone")
 	// server.runCommandSilent("/tp @e[type=wither] 0 -1000 0")
+
+	server.runCommandSilent("/give @p immersive_aircraft:biplane")
+	server.runCommandSilent("/give @p immersive_aircraft:improved_landing_gear")
+	server.runCommandSilent("/give @p immersive_aircraft:heavy_crossbow")
+
 	player.setStatusMessage("创哥理赔完成");
 	return 1;
 }
