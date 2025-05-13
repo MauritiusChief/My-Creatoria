@@ -10,15 +10,23 @@
     },
     {
       "chance": 5.0,
-      "item": "waystones:warp_stone"
+      "item": "waystones:warp_dust"
     },
     {
-      "chance": 20.0,
+      "chance": 10.0,
+      "item": "minecraft:flint"
+    },
+    {
+      "chance": 10.0,
       "item": "minecraft:ender_pearl"
     },
     {
-      "chance": 15.0,
+      "chance": 10.0,
       "item": "minecraft:stone_brick_slab"
+    },
+    {
+      "chance": 5.0,
+      "item": "minecraft:chiseled_stone_bricks"
     }
   ],
   "type": "create:sequenced_assembly",
