@@ -12,6 +12,7 @@ config/bocchud
 config/xray-client.toml
 config/xray
 config/sidebar_buttons.json
+config/replaymod-rendersettings.json
 
 !defaultconfigs/
 
