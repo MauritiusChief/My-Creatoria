@@ -1,23 +1,23 @@
 {
   "results": [
     {
-      "chance": 90.0,
+      "chance": 50.0,
       "item": "waystones:warp_plate"
     },
     {
-      "chance": 2.0,
+      "chance": 10.0,
       "item": "minecraft:stone_pressure_plate"
     },
     {
-      "chance": 1.0,
+      "chance": 5.0,
       "item": "waystones:warp_stone"
     },
     {
-      "chance": 4.0,
+      "chance": 20.0,
       "item": "minecraft:ender_pearl"
     },
     {
-      "chance": 3.0,
+      "chance": 15.0,
       "item": "minecraft:stone_brick_slab"
     }
   ],
